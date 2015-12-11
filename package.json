@@ -1,0 +1,15 @@
+{
+  "name": "makakochat",
+  "version": "0.1.0",
+  "description": "WebChat Client/Server for BuddyPress",
+  "main": "index.js",
+  "devDependencies": {
+    "bower": "^1.7.0",
+    "grunt": "^0.4.5"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Hans Bonini, Sandro Dutra",
+  "license": "GPL-3.0"
+}

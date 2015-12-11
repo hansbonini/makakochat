@@ -1,0 +1,24 @@
+{
+  "name": "makakochat-client",
+  "description": "WebChat Client for BuddyPress",
+  "main": "index.js",
+  "authors": [
+    "Hans Bonini",
+    "Sandro Dutra"
+  ],
+  "license": "GPL-3.0",
+  "moduleType": [],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "mui": "~0.2.9",
+    "react": "~0.14.3"
+  }
+}
