@@ -6,9 +6,7 @@
     "Hans Bonini",
     "Sandro Dutra"
   ],
-  "license": "GPL-3.0",
-  "moduleType": [],
-  "homepage": "",
+  "license": "MIT",
   "private": true,
   "ignore": [
     "**/.*",
@@ -19,6 +17,8 @@
   ],
   "dependencies": {
     "mui": "~0.2.9",
-    "react": "~0.14.3"
+    "react": "~0.14.3",
+    "html5shiv": "~3.7.3",
+    "jquery": "1.11.2"
   }
 }

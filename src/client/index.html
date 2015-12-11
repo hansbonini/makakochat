@@ -7,11 +7,8 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <!-- Normaliza o HTML5 -->
-        <link rel="stylesheet" href="static/css/normalize.min.css">
-
         <!-- CSS das Bibliotecas -->
-        <link rel="stylesheet" href="lib/mui/css/mui.min.css">
+        <link rel="stylesheet" href="lib/mui/dist/css/mui.min.css">
 
         <!-- CSS Principal do Cliente -->
         <link rel="stylesheet" href="static/css/main.css">
@@ -28,16 +25,21 @@
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
+        <div id="wrapper"></div>
+
         <!-- Jquery 1.11.2 -->
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="lib/jquery/dist/jquery.min.js"><\/script>')</script>
 
         <!-- Bibliotecas -->
-        <script src="lib/react/react.min.js"></script>
-        <script src="lib/react/react-dom.min.js"></script>
-        <script src="lib/mui/react/mui-react.min.js"></script>
+        <script src="lib/react/react.js"></script>
+        <script src="lib/react/react-dom.js"></script>
+        <script src="lib/mui/dist/react/mui-react.js"></script>
+
+        <!-- Compilador Babel JSX *Somente para DEV -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.23/browser.min.js"></script>
 
         <!-- JS Principal do Cliente -->
-        <script src="static/js/main.js"></script>
+        <script type="text/babel" src="static/js/main.js"></script>
     </body>
 </html>

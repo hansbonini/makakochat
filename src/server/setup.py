@@ -5,7 +5,7 @@ setup(
     name="makakochat-server",
     version="0.1.0",
     description="WebChat Server for BuddyPress",
-    license="GPL-3.0",
+    license="MIT",
     author="Hans Bonini, Sandro Dutra",
     packages=find_packages(),
     install_requires=[flask, flask.socketio],
