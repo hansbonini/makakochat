@@ -8,8 +8,8 @@ setup(
     license="MIT",
     author="Hans Bonini, Sandro Dutra",
     packages=find_packages(),
-    install_requires=[flask, flask.socketio],
-    long_description=long_description,
+    install_requires=["Flask", "flask-socketio"],
+    long_description="Server for MakakoChat",
     classifiers=[
         "Programming Language :: Python",
         "Programming Language :: Python :: 3.5",

@@ -9,7 +9,7 @@
     "http-server": "^0.8.5"
   },
   "scripts": {
-    "test-client": "node node_modules/.bin/http-server ./src/client/ -p 8080"
+    "test-client": "node node_modules/http-server/bin/http-server ./src/client/ -p 8080"
   },
   "author": "Hans Bonini, Sandro Dutra",
   "license": "MIT"
