@@ -61,7 +61,17 @@
    var ChatInput = React.createClass({
      render: function() {
        return (
-         <footer className="mui-col-md-12"></footer>
+         <footer className="mui-col-md-12">
+          <form>
+            <div className="mui-container-fluid">
+              <div className="row">
+                <div className="mui-textfield mui-col-md-12">
+                  <input type="text" placeholder="Insira sua Mensagem" />
+                </div>
+              </div>
+            </div>
+          </form>
+         </footer>
        );
      },
    });

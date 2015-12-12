@@ -5,11 +5,11 @@
   "main": "index.js",
   "devDependencies": {
     "bower": "^1.7.0",
-    "grunt": "^0.4.5",
-    "http-server": "^0.8.5"
+    "grunt": "^0.4.5"
   },
   "scripts": {
-    "test-client": "node node_modules/http-server/bin/http-server ./src/client/ -p 8080"
+    "pre-install": "npm install http-server -g & bower install",
+    "test:client": "http-server src/client -p 8080"
   },
   "author": "Hans Bonini, Sandro Dutra",
   "license": "MIT"
