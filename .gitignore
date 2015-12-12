@@ -35,6 +35,9 @@ src/client/lib
 # Optional REPL history
 .node_repl_history
 
+# Atom Build
+.atom-build.json
+
 #Python
 # Byte-compiled / optimized / DLL files
 __pycache__/
